@@ -1,16 +1,11 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/trading-frontend/' : '/', // Ajusta automáticamente el `base`
+  base: '/trading-frontend/',
   build: {
-    outDir: 'docs', // Cambiar 'dist' por 'docs'
-  },
-  rollupOptions: {
-    output: {
-      manualChunks: undefined,
-    },
+    outDir: 'docs', // Si estás usando 'docs' para GitHub Pages
   },
 });
-
