@@ -7,5 +7,10 @@ export default defineConfig({
   build: {
     outDir: 'docs', // Cambiar 'dist' por 'docs'
   },
+  rollupOptions: {
+    output: {
+      manualChunks: undefined,
+    },
+  },
 });
 
