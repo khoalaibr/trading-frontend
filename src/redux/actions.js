@@ -15,7 +15,7 @@ export const fetchResults = (tickers) => async (dispatch) => {
 
   try {
     const response = await axios.get(
-      `${import.meta.env.VITE_API_BASE_URL}/market/daily-signals`,
+      `${import.meta.env.VITE_API_BASE_URL}/api/market/daily-signals`,
       {
         params: {
           tickers: tickers.join(','),
