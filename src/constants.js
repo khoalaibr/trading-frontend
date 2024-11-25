@@ -81,5 +81,6 @@ export const AMERICAN_ACTIONS = [
     'MCD', // McDonald's Corp.
     'WMT', // Walmart Inc.
     'CVX' // Chevron Corp.
+
 ];
 
