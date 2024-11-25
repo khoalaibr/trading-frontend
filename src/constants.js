@@ -28,7 +28,7 @@ export const B3_ACTIONS = [
     'CYRE3.SA', // Cyrela
     'BRKM5.SA', // Braskem
     'USIM5.SA', // Usiminas
-    'FLRY3.SA', // Fleury
+    'FLRY3.SA', // Fleury 
     'ENBR3.SA', // Energias do Brasil
     'MRFG3.SA', // Marfrig
     'PSSA3.SA', // Porto Seguro
